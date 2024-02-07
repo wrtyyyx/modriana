@@ -79,3 +79,89 @@ table {
     padding:15px;
     text-align: center;
 }
+
+
+
+a{
+    text-decoration: none;
+}
+.head h1{
+    background-color: black;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.table-section{
+    margin: 60px 0;
+}
+
+.data{
+    width: 1100px;
+    border-style: hidden;
+    color: #1a1a1a;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 0 2px #e4e4e4;
+    
+    
+}
+
+
+.data th,
+.data td{
+    border-top: 3px solid #e4e4e4;
+}
+
+.data th{
+    text-align: left;
+    font-weight: 500;
+    padding: 18px 16px;
+    width: 500px;
+    
+}
+
+.data th + th + th{
+    width: auto;
+}
+
+.data td {
+    padding: 8px 16px;
+}
+
+.last-item{
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 6px 18px;
+    border-radius: 12px;
+}
+
+.btn.online{
+    background-color: lightgreen;
+    color: green;
+}
+
+.btn.offline{
+    background: lightcoral;
+    
+}
+
+.btn.stay{
+    background: #EDEDFE;
+    color: #605DEC;
+}
+
+.btn.not{
+    background: #FFF4E4;
+    color: #E99518;
+}
+
+.btn.spy{
+    background-color: #F8F9FB;
+    color: #BDBCDB;
+}
